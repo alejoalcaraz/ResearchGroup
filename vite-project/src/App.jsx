@@ -28,7 +28,7 @@ function App() {
             <li className="nav-item"><a href="/" className="nav-link px-2 text-body-secondary">About</a></li>
             <li className="nav-item"><a href="/Research" className="nav-link px-2 text-body-secondary">Research</a></li>
             <li className="nav-item"><a href="/Team" className="nav-link px-2 text-body-secondary">Team</a></li>
-            <li className="nav-item"><a href="https://www.minoruhiga.com" className="nav-link px-2 text-body-secondary">Minoru's Website</a></li>
+            <li className="nav-item"><a target="_blank" href="https://www.minoruhiga.com" className="nav-link px-2 text-body-secondary">Minoru's Website</a></li>
           </ul>
         </footer>
       </div>
