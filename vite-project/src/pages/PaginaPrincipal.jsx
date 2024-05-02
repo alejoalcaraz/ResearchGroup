@@ -3,6 +3,23 @@ import { NavLink } from "react-router-dom"
 //Página principal donde se puede navegar por todas los ambientes desarrollados
 const PaginaPrincipal = () => {
 
+    window.onscroll = function () { myFunction() };
+
+
+   
+  
+    
+    function myFunction() {
+        var header = document.getElementById("navcontainer");
+  
+  
+        var sticky = header.offsetTop;
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
 
     return (<>
         <div className="row">

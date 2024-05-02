@@ -15,6 +15,8 @@ footer {
   text-align: center;
 }
 
+
+
 .clear {
   clear: both;
   height: 120px;
@@ -22,7 +24,7 @@ footer {
 
 .bold {
   font-family: "Proxima Nova ExtraBold";
-  
+
 }
 
 #navcontainer ul li {
@@ -66,9 +68,41 @@ footer {
   margin-top: 0;
   margin-bottom: 40px;
 }
+
 .espacio {
   clear: both;
   height: 120px;
+}
+
+.espacioMini {
+  clear: both;
+  height: 60px;
+}
+
+.espacioGrande {
+  clear: both;
+  height: 300px;
+}
+
+
+
+.cardTitulo {
+  font-size: 20px;
+  font-family: "Proxima Nova ExtraBold";
+  text-align: left;
+}
+
+.cardCuerpo {
+  font-size: 17px;
+  font-family: "Proxima Nova";
+  text-align: justify;
+}
+
+.soon {
+  font-family: "Proxima Nova";
+  font-size: 25px;
+  color: #707070;
+  padding-top: 30px;
 }
 
 .introduccion {
@@ -80,9 +114,80 @@ footer {
   margin-bottom: 50px;
 }
 
+.titulosTeam {
+  font-size: 25px;
+  font-family: "Proxima Nova ExtraBold";
+  text-align: left;
+  padding-top: 1%;
+}
+
+.imagenMinoru {
+  height: 245px;
+  margin-bottom: 12%;
+  margin-top: 4%;
+  display: flex;
+}
+
+.imagenMembers {
+  height: 213px;
+  margin-bottom: 3%;
+  margin-top: 4%;
+  display: flex;
+  border-radius: 50%;
+
+}
+
+
 .segundaParte {
   background-color: rgba(250, 250, 250, 1);
 
+}
+
+.perfiles {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+@media (max-width: 1234px) {
+  .perfil {
+    margin-left: 400px;
+  }
+
+  .minorucontainer ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .minorucontainer {
+    text-align: left;
+  }
+}
+
+.minorucontainer {
+  margin-top: 30px;
+}
+
+.minorucontainer ul li {
+  display: inline;
+  margin: 20px;
+}
+
+.minorucontainer ul li a {
+  text-decoration: underline;
+  font-size: 20px;
+  padding: .2em 1em;
+  color: #000000;
+}
+
+.minorucontainer ul li a:hover {
+  color: #707070;
+  text-decoration: wavy;
+}
+
+.imagenLinkedin {
+  width: 31px;
+  padding-left: 0%;
 }
 
 .horizontal {
@@ -90,10 +195,40 @@ footer {
   margin: auto;
 }
 
+.textoTeam {
+  font-family: "Proxima Nova Light";
+  padding-top: 5px;
+  font-size: 22px;
+}
+
+.textoTeamBold {
+  font-family: "Proxima Nova ExtraBold";
+  font-size: 25px;
+
+}
+
+.textoMembers {
+  font-family: "Proxima Nova Light";
+  padding-top: 10px;
+  font-size: 15px;
+  max-width: 213px;
+  text-align: left;
+}
+
+.textoMembersBold {
+  font-family: "Proxima Nova ExtraBold";
+  font-size: 18px;
+
+}
+
+
+
 .overview {
+  margin-top: 10px;
   font-family: "Proxima Nova";
-  font-size: 30px;
-  margin-left: 0px;
+  font-size: 27px;
+  text-align: left;
+  width: fit-content;
 
 }
 
@@ -110,6 +245,20 @@ hr {
   width: auto;
   height: 300px;
   border-radius: 5px;
+}
+
+.imagenCarros {
+  margin: auto;
+  align-self: center;
+  width: 435px;
+  margin-top: 4%;
+}
+
+.card {
+  margin-top: 3%;
+  margin-left: auto;
+  border: 0;
+  filter: drop-shadow(0px 4px 8px #8d8d8d);
 }
 
 .tituloMini {
@@ -146,4 +295,17 @@ hr {
   max-height: 150px;
   margin-top: 0px;
   background-color: #6397e0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 102;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+  padding-top: 10px;
 }
