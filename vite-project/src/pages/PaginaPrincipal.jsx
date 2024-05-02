@@ -51,7 +51,7 @@ const PaginaPrincipal = () => {
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
                     <div className="col-6">
-                        <img src="./docs/foto research.jpg" className="imagenAmb" alt="Foto Research" />
+                        <img src="foto research.jpg" className="imagenAmb" alt="Foto Research" />
                     </div>
                     <div className="col-6">
                         <div className="row">
