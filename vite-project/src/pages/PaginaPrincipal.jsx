@@ -66,7 +66,7 @@ const PaginaPrincipal = () => {
                                 </div>
                             </div>
                             <div className="col-5">
-                                <NavLink to="/Research"><img src="./docs/derecha.png" className="btnNext" alt="Foto Research" /></NavLink>
+                                <NavLink to="/Research"><img src="/docs/derecha.png" className="btnNext" alt="Foto Research" /></NavLink>
                             </div>
                         </div>
                     </div>
