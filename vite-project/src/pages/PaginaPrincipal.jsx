@@ -51,7 +51,7 @@ const PaginaPrincipal = () => {
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
                     <div className="col-6">
-                        <img src="foto research.jpg" className="imagenAmb" alt="Foto Research" />
+                        <img src="/images/foto research.jpg" className="imagenAmb" alt="Foto Research" />
                     </div>
                     <div className="col-6">
                         <div className="row">
@@ -66,7 +66,7 @@ const PaginaPrincipal = () => {
                                 </div>
                             </div>
                             <div className="col-5">
-                                <NavLink to="/Research"><img src="/docs/derecha.png" className="btnNext" alt="Foto Research" /></NavLink>
+                                <NavLink to="/Research"><img src="/images/derecha.png" className="btnNext" alt="Foto Research" /></NavLink>
                             </div>
                         </div>
                     </div>
@@ -86,13 +86,13 @@ const PaginaPrincipal = () => {
                             </div>
                             <div className="col-5">
                                 <NavLink to="/Team">
-                                    <img src="./docs/derecha.png" className="btnNext" alt="Foto Research" />
+                                    <img src="./images/derecha.png" className="btnNext" alt="Foto Research" />
                                 </NavLink>
                             </div>
                         </div>
                     </div>
                     <div className="col-6">
-                        <img src="./docs/team.png" className="imagenAmb" alt="Foto Research" />
+                        <img src="./images/team.png" className="imagenAmb" alt="Foto Research" />
                     </div>
                 </div>
             </div>

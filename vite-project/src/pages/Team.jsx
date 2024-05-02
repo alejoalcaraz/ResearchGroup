@@ -48,7 +48,7 @@ const Team = () => {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-md-auto">
-                            <img src="./docs/profile.png" className="imagenMinoru" alt="Foto Perfil Minoru" />
+                            <img src="/images/profile.png" className="imagenMinoru" alt="Foto Perfil Minoru" />
                         </div>
                         <div className="col-md-9 perfil">
                             <div className="row textoTeamBold">
@@ -72,7 +72,7 @@ const Team = () => {
                                         <ul>
                                             <li><a className="bold" href="https://www.minoruhiga.com/publications/" target="_blank">Publications</a></li>
                                             <li><a className="bold" href="https://www.minoruhiga.com/teaching/" target="_blank">Teaching</a></   li>
-                                            <li><a className="bold" href="./docs/CV_MinoruHiga.pdf" download="CV_MinoruHiga.pdf">Download CV</a></li>
+                                            <li><a className="bold" href="/images/CV_MinoruHiga.pdf" download="CV_MinoruHiga.pdf">Download CV</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -87,33 +87,33 @@ const Team = () => {
                     </div>
                     <div className="row justify-content-md-center">
                         <div className="col-md-auto perfiles">
-                            <img src="./docs/FotoCV.png" className="imagenMembers" alt="Foto Alejandro Alcaraz" />
+                            <img src="./images/FotoCV.png" className="imagenMembers" alt="Foto Alejandro Alcaraz" />
                             <div className="row textoMembersBold"> Alejandro Alcaraz</div>
                             <div className="row textoMembers"> a.alcaraz@uniandes.edu.co</div>
                             <div className="row textoMembers"> Bachelor’s in Management and Systems Engineering</div>
                             <div className="row textoMembers"> Expected 2024</div>
                             <div className="row textoMembers"><a href="https://www.linkedin.com/in/alejandro-alcaraz-432612246" target="_blank">
-                                <img src="./docs/linkedin.png" className="imagenLinkedin" alt="Linkedin Alejandro Alcaraz" /></a>
+                                <img src="/images/linkedin.png" className="imagenLinkedin" alt="Linkedin Alejandro Alcaraz" /></a>
                             </div>
                         </div>
                         <div className="col-md-auto perfiles">
-                            <img src="./docs/Santiago Aristizabal.jpg" className="imagenMembers" alt="Foto Santiago Aristizabal" />
+                            <img src="/images/Santiago Aristizabal.jpg" className="imagenMembers" alt="Foto Santiago Aristizabal" />
                             <div className="row textoMembersBold"> Santiago Aristizabal</div>
                             <div className="row textoMembers"> s.aristizabala@uniandes.edu.co</div>
                             <div className="row textoMembers"> Bachelor’s in Management</div>
                             <div className="row textoMembers"> Expected 2024</div>
                             <div className="row textoMembers"><a href="https://www.linkedin.com/in/santiago-aristizabal-595655274" target="_blank">
-                                <img src="./docs/linkedin.png" className="imagenLinkedin" alt="Linkedin Santiago Aristizabal" /></a>
+                                <img src="/images/linkedin.png" className="imagenLinkedin" alt="Linkedin Santiago Aristizabal" /></a>
                             </div>
                         </div>
                         <div className="col-md-auto perfiles">
-                            <img src="./docs/Juan Felipe Agudelo.jpg" className="imagenMembers" alt="Foto Juan Felipe Agudelo" />
+                            <img src="/images/Juan Felipe Agudelo.jpg" className="imagenMembers" alt="Foto Juan Felipe Agudelo" />
                             <div className="row textoMembersBold"> Juan Agudelo</div>
                             <div className="row textoMembers"> j.agudelo@uniandes.edu.co</div>
                             <div className="row textoMembers"> Bachelor’s in Economics, Master’s in Economics</div>
                             <div className="row textoMembers"> Expected 2025</div>
                             <div className="row textoMembers"><a href="https://www.linkedin.com/in/juan-felipe-agudelo-rios-b38a0422a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
-                                <img src="./docs/linkedin.png" className="imagenLinkedin" alt="Linkedin Juan Felipe Agudelo" /></a>
+                                <img src="/images/linkedin.png" className="imagenLinkedin" alt="Linkedin Juan Felipe Agudelo" /></a>
                             </div>
                         </div>
                     </div>

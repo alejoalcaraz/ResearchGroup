@@ -44,7 +44,7 @@ const Research = () => {
                 <div className="row horizontal">
                     <div className="col-6">
                         <div className="card" style={{ width: 484 + 'px' }}>
-                            <img className="card-img-top imagenCarros" src="./docs/muchoscarros.png" alt="Card image cap" />
+                            <img className="card-img-top imagenCarros" src="/images/muchoscarros.png" alt="Card image cap" />
                             <div className="card-body">
                                 <h5 className="card-title cardTitulo">Traffic Congestion and Labor Supply: Evidence from Smartphone data in Mexico</h5>
                                 <p className="card-text cardCuerpo">Does traffic congestion affect time allocation? I use highly granular smartphone data from Mexico City
@@ -56,7 +56,7 @@ const Research = () => {
                     </div>
                     <div className="col-6">
                         <div className="card" style={{ width: 484 + 'px' }}>
-                            <img className="card-img-top imagenCarros" src="./docs/Amazon.png" alt="Card image cap" />
+                            <img className="card-img-top imagenCarros" src="/images/Amazon.png" alt="Card image cap" />
                             <div className="card-body">
                                 <h5 className="card-title cardTitulo">Nobody’s Watching: COVID-19, Monitoring, and the Amazon Rainforest</h5>
                                 <p className="card-text cardCuerpo">How do pandemics may affect the Amazon rainforest? Using an event study design and a difference-in-differences approach,
