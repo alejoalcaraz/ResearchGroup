@@ -28,13 +28,13 @@ footer {
 }
 
 #navcontainer ul li {
-  display: inline;
+  display: inline-block;
   margin: 10px;
 }
 
 #navcontainer ul li a {
   text-decoration: dashed;
-  font-size: 30px;
+  font-size: calc(50% + 0.8vw + 0.8vh);
   padding: .2em 1em;
   color: #000000;
 }
@@ -56,6 +56,15 @@ footer {
   font-size: calc(100% + 1vw + 1vh);
   color: #000000;
   padding-top: 1.5em;
+  margin-top: 0;
+}
+
+.tituloabajo {
+  font-family: "Proxima Nova";
+  font-weight: 550;
+  font-size: calc(100% + 0.7vw + 0.7vh);
+  color: #000000;
+  padding-top: 0.5em;
   margin-top: 0;
 }
 
@@ -287,8 +296,16 @@ hr {
   width: auto;
   width: auto;
   height: 42px;
+}
 
+.listaResearch {
+  margin-left: 30px;
+  padding-top: 0%;
+  text-align: left;
+}
 
+.espacioLista {
+ margin-top: 20px;
 }
 
 .navbar {

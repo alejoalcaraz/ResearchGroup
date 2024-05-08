@@ -23,7 +23,10 @@ const Research = () => {
     return (<>
         <div className="row">
             <div className="row">
-                <div className="titulo"> Environment and Transportation Research Group</div>
+                <div className="titulo"> ENTRA</div>
+            </div>
+            <div className="row">
+                <div className="tituloabajo"> Environment and Transportation Research Group</div>
             </div>
             <div className="row">
                 <div id="navcontainer">
@@ -42,7 +45,7 @@ const Research = () => {
                 </div>
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
-                    <div className="col-6">
+                    <div className="col-md-6 col-12">
                         <div className="card" style={{ width: 484 + 'px' }}>
                             <img className="card-img-top imagenCarros" src="/images/muchoscarros.png" alt="Card image cap" />
                             <div className="card-body">
@@ -75,8 +78,11 @@ const Research = () => {
                 </div>
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
-                    <p className="soon"> Coming soon...</p>
-                    <div className="espacioGrande"></div>
+                    <ul className="listaResearch">
+                        <li className="espacioLista">“Migration and Environmental Quality: Evidence from Facebook data in Colombia”, with Pablo Ordonez and Julieth Santamaria.</li>
+                        <li className="espacioLista"> “Who work outdoors? Implication for Climate Change and Pandemics using Machine learning and text-as-data”, with Jose Incio and Carlos Ospino.</li>
+                    </ul>
+                    <div className="espacioMini"></div>
                 </div>
                 <div className="row horizontal">
                     <div className="col-1 overview">
@@ -85,8 +91,10 @@ const Research = () => {
                 </div>
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
-                    <p className="soon"> Coming soon...</p>
-                    <div className="espacioGrande"></div>
+                    <ul className="listaResearch">
+                        <li className="espacioLista">“Is it Too Hot to Work? Evidence from Peru” (Submitted)</li>
+                    </ul>
+                    <div className="espacioMini"></div>
                 </div>
                 <div className="row horizontal">
                     <div className="col-1 overview">
@@ -95,8 +103,12 @@ const Research = () => {
                 </div>
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
-                    <p className="soon"> Coming soon...</p>
-                    <div className="espacioGrande"></div>
+                    <ul className="listaResearch">
+                        <li className="espacioLista">“The Persistent Effects of COVID-19 on Labor Outcomes: Evidence from Peru”, Applied Economics Letters 30:8, 1065-1076, 2023 (with Fernando Aragon and Carlos Ospino)
+                        <a href="https://www.tandfonline.com/eprint/ZEJY7UNFNQAUNRV9ABH9/full?target=10.1080/13504851.2022.2036319" target="_blank"> paper </a>
+                         - <a href="https://ideas.repec.org/p/sfu/sfudps/dp21-10.html" target="_blank">working paper</a></li>
+                    </ul>
+                    <div className="espacioMini"></div>
                 </div>
             </div>
 

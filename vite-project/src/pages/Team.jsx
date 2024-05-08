@@ -23,7 +23,10 @@ const Team = () => {
     return (<>
         <div className="row">
             <div className="row">
-                <div className="titulo"> Environment and Transportation Research Group</div>
+                <div className="titulo"> ENTRA</div>
+            </div>
+            <div className="row">
+                <div className="tituloabajo"> Environment and Transportation Research Group</div>
             </div>
             <div className="row">
                 <div id="navcontainer">
@@ -67,12 +70,13 @@ const Team = () => {
                                 d.higa@uniandes.edu.co
                             </div>
                             <div className="row botonesMinoru">
-                                <div className="col-9">
+                                <div className="col-12">
                                     <div className="minorucontainer">
                                         <ul>
                                             <li><a className="bold" href="https://www.minoruhiga.com/publications/" target="_blank">Publications</a></li>
                                             <li><a className="bold" href="https://www.minoruhiga.com/teaching/" target="_blank">Teaching</a></   li>
                                             <li><a className="bold" href="/images/CV_MinoruHiga.pdf" download="CV_MinoruHiga.pdf">Download CV</a></li>
+                                            <li><a className="bold" href="https://www.minoruhiga.com" target="_blank" >Minoru's Website</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -87,7 +91,7 @@ const Team = () => {
                     </div>
                     <div className="row justify-content-md-center">
                         <div className="col-md-auto perfiles">
-                            <img src="./images/FotoCV.png" className="imagenMembers" alt="Foto Alejandro Alcaraz" />
+                            <img src="./images/Alejandro_crop.jpg" className="imagenMembers" alt="Foto Alejandro Alcaraz" />
                             <div className="row textoMembersBold"> Alejandro Alcaraz</div>
                             <div className="row textoMembers"> a.alcaraz@uniandes.edu.co</div>
                             <div className="row textoMembers"> Bachelor’s in Management and Systems Engineering</div>
@@ -97,7 +101,7 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="col-md-auto perfiles">
-                            <img src="/images/Santiago Aristizabal.jpg" className="imagenMembers" alt="Foto Santiago Aristizabal" />
+                            <img src="/images/Santiago_crop.jpg" className="imagenMembers" alt="Foto Santiago Aristizabal" />
                             <div className="row textoMembersBold"> Santiago Aristizabal</div>
                             <div className="row textoMembers"> s.aristizabala@uniandes.edu.co</div>
                             <div className="row textoMembers"> Bachelor’s in Management</div>
@@ -123,7 +127,7 @@ const Team = () => {
                 <div className="row horizontal">
                     <div className="row">
                         <p className="titulosTeam">ALUMNI</p>
-                        <p className="soon"> Not yet...</p>
+                        <p className="soon"></p>
                         <div className="espacioGrande"></div>
                     </div>
                 </div>
