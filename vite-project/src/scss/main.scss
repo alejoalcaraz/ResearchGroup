@@ -8,6 +8,12 @@ footer {
   background-color: rgba(250, 250, 250, 1);
 }
 
+@media screen and (max-width: 469px) {
+  .footerD {
+    display: none !important;
+  }
+}
+
 #navcontainer ul {
   margin-top: 30px;
   padding: 0;
@@ -160,7 +166,7 @@ footer {
 
 @media (max-width: 1234px) {
   .perfil {
-    margin-left: 400px;
+    margin-left: 40px;
   }
 
   .minorucontainer ul {
@@ -172,6 +178,8 @@ footer {
     text-align: left;
   }
 }
+
+@media (min-width:500px) {}
 
 .minorucontainer {
   margin-top: 30px;
@@ -246,27 +254,36 @@ hr {
   margin: auto;
 }
 
+@media (max-height:250px) {
+  #footer {
+    display: none;
+  }
+}
+
 .imagenAmb {
   display: block;
   margin-left: 4%;
   margin-right: auto;
   margin-top: 40px;
   width: auto;
-  height: 300px;
+  max-width: 100%;
+
   border-radius: 5px;
 }
 
 .imagenCarros {
   margin: auto;
   align-self: center;
-  width: 435px;
+  max-width: 95%;
   margin-top: 4%;
+  display: flex;
 }
 
 .card {
   margin-top: 3%;
   margin-left: auto;
   border: 0;
+  max-width: 100%;
   filter: drop-shadow(0px 4px 8px #8d8d8d);
 }
 
@@ -282,10 +299,11 @@ hr {
 .txtBtn {
   font-family: "Proxima Nova";
   font-weight: 650;
-  margin-left: 200px;
+  text-align: center;
   font-size: 20px;
   color: #000000;
   margin-top: 100px;
+
 }
 
 .btnNext {
@@ -305,7 +323,7 @@ hr {
 }
 
 .espacioLista {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .navbar {

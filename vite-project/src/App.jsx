@@ -25,10 +25,10 @@ function App() {
       </Routes>
       <div className="clear"></div>
       <div className="container-fluid fixed-bottom">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-2 my-0 border-top">
+        <footer className="footerD d-flex flex-wrap justify-content-between align-items-center py-2 my-0 border-top">
           <p className="col-md-5 mb-0 text-body-secondary">© 2024 Universidad de los Andes</p>
           <ul className="nav col-md-5 justify-content">
-            <li className="nav-item"><NavLink to ="/"><a href="" className="nav-link px-2 text-body-secondary">About</a></NavLink></li>
+            <li className="nav-item"><NavLink to="/"><a href="" className="nav-link px-2 text-body-secondary">About</a></NavLink></li>
             <li className="nav-item"><NavLink to="/Research"><a href="" className="nav-link px-2 text-body-secondary">Research</a></NavLink></li>
             <li className="nav-item"><NavLink to="/Team"><a href="" className="nav-link px-2 text-body-secondary">Team</a></NavLink></li>
             <li className="nav-item"><a target="_blank" href="https://www.minoruhiga.com" className="nav-link px-2 text-body-secondary">Minoru's Website</a></li>

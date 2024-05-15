@@ -57,7 +57,7 @@ const Research = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 col-12">
                         <div className="card" style={{ width: 484 + 'px' }}>
                             <img className="card-img-top imagenCarros" src="/images/Amazon.png" alt="Card image cap" />
                             <div className="card-body">
@@ -92,6 +92,8 @@ const Research = () => {
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
                     <ul className="listaResearch">
+                        <li className="espacioLista">“Traffic Congestion and Labor Supply: Evidence from Smartphone data in Mexico”</li>
+                        <li className="espacioLista">“Nobody’s Watching: COVID-19, Monitoring, and the Amazon Rainforest”, with Jerico Fiestas and Javier Montoya (Under review).</li>
                         <li className="espacioLista">“Is it Too Hot to Work? Evidence from Peru” (Submitted)</li>
                     </ul>
                     <div className="espacioMini"></div>
@@ -105,8 +107,8 @@ const Research = () => {
                 <div className="row horizontal">
                     <ul className="listaResearch">
                         <li className="espacioLista">“The Persistent Effects of COVID-19 on Labor Outcomes: Evidence from Peru”, Applied Economics Letters 30:8, 1065-1076, 2023 (with Fernando Aragon and Carlos Ospino)
-                        <a href="https://www.tandfonline.com/eprint/ZEJY7UNFNQAUNRV9ABH9/full?target=10.1080/13504851.2022.2036319" target="_blank"> paper </a>
-                         - <a href="https://ideas.repec.org/p/sfu/sfudps/dp21-10.html" target="_blank">working paper</a></li>
+                            <a href="https://www.tandfonline.com/eprint/ZEJY7UNFNQAUNRV9ABH9/full?target=10.1080/13504851.2022.2036319" target="_blank"> paper </a>
+                            - <a href="https://ideas.repec.org/p/sfu/sfudps/dp21-10.html" target="_blank">working paper</a></li>
                     </ul>
                     <div className="espacioMini"></div>
                 </div>

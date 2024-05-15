@@ -53,7 +53,7 @@ const PaginaPrincipal = () => {
                 </div>
                 <hr className="horizontal"></hr>
                 <div className="row horizontal">
-                    <div className="col-6">
+                    <div className="col-sm-6 col-12">
                         <img src="/images/foto research.jpg" className="imagenAmb" alt="Foto Research" />
                     </div>
                     <div className="col-12 col-sm-5">
@@ -63,12 +63,12 @@ const PaginaPrincipal = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-sm-7 col-3">
+                            <div className="col-sm-7 col-8">
                                 <div className="txtBtn">
                                     Check projects
                                 </div>
                             </div>
-                            <div className="col-sm-5 col-7">
+                            <div className="col-sm-5 col-4">
                                 <NavLink to="/Research"><img src="/images/derecha.png" className="btnNext" alt="Foto Research" /></NavLink>
                             </div>
                         </div>
@@ -82,19 +82,19 @@ const PaginaPrincipal = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-sm-7 col-3">
+                            <div className="col-sm-7 col-8">
                                 <div className="txtBtn">
                                     See our team
                                 </div>
                             </div>
-                            <div className="col-sm-5 col-7">
+                            <div className="col-sm-5 col-4">
                                 <NavLink to="/Team">
                                     <img src="./images/derecha.png" className="btnNext" alt="Foto Research" />
                                 </NavLink>
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-sm-6 col-12">
                         <img src="./images/Group_2.jpg" className="imagenAmb" alt="Foto Research" />
                     </div>
                 </div>
