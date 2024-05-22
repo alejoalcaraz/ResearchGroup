@@ -51,6 +51,7 @@ const Team = () => {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-md-auto">
+                            {/* Foto de perfil de Minoru */}
                             <img src="/images/profile.png" className="imagenMinoru" alt="Foto Perfil Minoru" />
                         </div>
                         <div className="col-md-9 perfil">
@@ -75,7 +76,7 @@ const Team = () => {
                                         <ul>
                                             <li><a className="bold" href="https://www.minoruhiga.com/publications/" target="_blank">Publications</a></li>
                                             <li><a className="bold" href="https://www.minoruhiga.com/teaching/" target="_blank">Teaching</a></   li>
-                                            <li><a className="bold" href="/images/CV_MinoruHiga.pdf" download="CV_MinoruHiga.pdf">Download CV</a></li>
+                                            <li><a className="bold" href="/docs/CV_MinoruHiga.pdf" download="CV_MinoruHiga.pdf">Download CV</a></li>
                                             <li><a className="bold" href="https://www.minoruhiga.com" target="_blank" >Minoru's Website</a></li>
                                         </ul>
                                     </div>
@@ -90,16 +91,24 @@ const Team = () => {
                         <p className="titulosTeam">CURRENT MEMBERS</p>
                     </div>
                     <div className="row justify-content-md-center">
+                        {/* Primer integrante de Current members*/}
                         <div className="col-md-auto perfiles">
-                            <img src="./images/Alejandro_crop.jpg" className="imagenMembers" alt="Foto Alejandro Alcaraz" />
+                            {/* Imagen de primer integrante de current members*/}
+                            <img src="/images/Alejandro_crop.jpg" className="imagenMembers" alt="Foto Alejandro Alcaraz" />
+                            {/* Nombre de primer integrante de current members*/}
                             <div className="row textoMembersBold"> Alejandro Alcaraz</div>
+                            {/* Correo de segundo integrante de current members*/}
                             <div className="row textoMembers"> a.alcaraz@uniandes.edu.co</div>
+                            {/* Información académica de primer integrante de current members*/}
                             <div className="row textoMembers"> Bachelor’s in Management and Systems Engineering</div>
+                            {/* Año de grado de primer integrante de current members*/}
                             <div className="row textoMembers"> Expected 2024</div>
+                            {/* Botón con vínculo al linkedin de primer integrante de current members*/}
                             <div className="row textoMembers"><a href="https://www.linkedin.com/in/alejandro-alcaraz-432612246" target="_blank">
                                 <img src="/images/linkedin.png" className="imagenLinkedin" alt="Linkedin Alejandro Alcaraz" /></a>
                             </div>
                         </div>
+                        {/* Segundo integrante de Current members*/}
                         <div className="col-md-auto perfiles">
                             <img src="/images/Santiago_crop.jpg" className="imagenMembers" alt="Foto Santiago Aristizabal" />
                             <div className="row textoMembersBold"> Santiago Aristizabal</div>
@@ -110,6 +119,7 @@ const Team = () => {
                                 <img src="/images/linkedin.png" className="imagenLinkedin" alt="Linkedin Santiago Aristizabal" /></a>
                             </div>
                         </div>
+                        {/* Tercer integrante de Current members*/}
                         <div className="col-md-auto perfiles">
                             <img src="/images/Juan Felipe Agudelo.jpg" className="imagenMembers" alt="Foto Juan Felipe Agudelo" />
                             <div className="row textoMembersBold"> Juan Agudelo</div>
@@ -127,8 +137,9 @@ const Team = () => {
                 <div className="row horizontal">
                     <div className="row">
                         <p className="titulosTeam">ALUMNI</p>
-                        <p className="soon"></p>
-                        <div className="espacioGrande"></div>
+                    </div>
+                    <div className="row justify-content-md-center">
+                        {/* Agregar alumnos antiguos acá*/}
                     </div>
                 </div>
             </div>

@@ -95,7 +95,7 @@ const PaginaPrincipal = () => {
                         </div>
                     </div>
                     <div className="col-sm-6 col-12">
-                        <img src="./images/Group_2.jpg" className="imagenAmb" alt="Foto Research" />
+                        <img src="./images/Group.jpg" className="imagenAmb" alt="Foto Research" />
                     </div>
                 </div>
             </div>
