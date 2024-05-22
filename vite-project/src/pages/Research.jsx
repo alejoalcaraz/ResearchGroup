@@ -44,8 +44,8 @@ const Research = () => {
                     </div>
                 </div>
                 <hr className="horizontal"></hr>
-                <div className="row horizontal">
-                    <div className="col-md-6 col-12">
+                <div className="row horizontal no-margin">
+                    <div className="col-md-6 col-12 no-margin">
                         <div className="card" style={{ width: 484 + 'px' }}>
                             <img className="card-img-top imagenCarros" src="/images/muchoscarros.png" alt="Card image cap" />
                             <div className="card-body">

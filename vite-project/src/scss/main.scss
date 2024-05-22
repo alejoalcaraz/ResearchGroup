@@ -12,6 +12,34 @@ footer {
   .footerD {
     display: none !important;
   }
+  .card {
+    margin-left: 15px !important;
+  }
+  .imagenMinoru {
+    margin-left: 30px;
+  }
+  .textoTeamBold {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .textoTeam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .perfiles {
+    margin-left: 50px !important;
+  }
+  .introduccion {
+    margin-left: 15px !important;
+  }
+  
+
+}
+.no-margin
+{
+  margin: 0px !important;
 }
 
 #navcontainer ul {
@@ -255,11 +283,6 @@ hr {
   margin: auto;
 }
 
-@media (max-height:250px) {
-  #footer {
-    display: none;
-  }
-}
 
 .imagenAmb {
   display: block;
