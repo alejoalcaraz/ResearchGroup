@@ -61,4 +61,4 @@ Para ejecutar la página localmente, necesitaremos instalar Node y npm.
 El archivo pdf de la hoja de vida se encuentra en la carpeta vite-project/public/docs con el nombre de CV_MinoruHiga.pdf. Si se quiere modificar, solo es resubir el pdf con el mismo nombre a la misma ubicación, remplazando el archivo anterior.
 
 ## Modificar Imágenes Página Principal
-Como ya fue mencionado anteriormente, todas las imágenes se encuentran en la carpeta vite-project/public/images. Por lo tanto, si queremos modificarlas debemos remplazar ya sea foto research.jpg o Group.jpg.
+Como ya fue mencionado anteriormente, todas las imágenes se encuentran en la carpeta vite-project/public/images. Por lo tanto, si queremos modificarlas debemos remplazar ya sea "foto research.jpg" o "Group.jpg".
