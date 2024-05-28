@@ -62,3 +62,4 @@ El archivo pdf de la hoja de vida se encuentra en la carpeta vite-project/public
 
 ## Modificar Imágenes Página Principal
 Como ya fue mencionado anteriormente, todas las imágenes se encuentran en la carpeta vite-project/public/images. Por lo tanto, si queremos modificarlas debemos remplazar ya sea foto research.jpg o Group.jpg.
+hfdgfdfg
